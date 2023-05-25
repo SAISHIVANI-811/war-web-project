@@ -31,6 +31,21 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>shivani Release Nexus Repository</name>
+	      <url>http://44.211.93.32:8081/repository/shivanirelease/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>shivani Snapshot Nexus Repository</name>
+	      <url>http://44.211.93.32:8081/repository/shivanisnapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
